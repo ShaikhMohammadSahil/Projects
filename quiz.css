@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-size: 20px;
+    background-image: url(liquid-cheese.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.greetings {
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+}
+h1,h2 {
+    padding: 0.5rem;
+}
+
+#startbtn {
+    margin-top: 2rem;
+    font-size: 2rem;
+    width: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#startbtn:hover {
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+}
+
+#secondsec {
+    margin-bottom: 40rem;
+    
+}
+
+#question {
+    padding-top: 10rem;
+    margin-bottom: 8rem;
+}
+
+#answers {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+#nextbtn {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: slateblue;
+    width: 10rem;
+}
+
+.correctanswer {
+    background-color: green;
+}
+.correctanswer1 {
+    background-color: silver;
+}
+
+
+.wronganswer {
+    background-color: red;
+}
+
+#end {
+    margin-bottom: 20rem;
+}
